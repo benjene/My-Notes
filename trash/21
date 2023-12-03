@@ -1,0 +1,18 @@
+Note 2023-11-18T18.45.39
+========================
+
+
+Define APIs for sending message,
+reading message
+
+
+for the users table, should it have these columns
+num_id,email,password,firstname,lastname,displayname
+
+do we care for a username? do we just have them login using email?
+
+and do we want to have data like 'city/location', so on their profile it could show that?
+
+
+For user accounts, what information do we want to keep track of?
+First name, last name, username, display name, email, password, maybe city/location?

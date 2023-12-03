@@ -1,0 +1,33 @@
+Note 2023-11-18T18.03.12
+========================
+
+see tutorial on monitors
+
+Real time scheduling algorithms
+- Rigorous requirements, each task comes with its own deadline, repeats with given period
+- Must meet each and every deadline, the contract between application and scheduler
+- if you don't meet deadline, scheduler's fault
+- This is different from round robin, these maximize some measure e.g. throughput
+
+i nodes, tryign to access 3 directories down
+do you have to access the directory to access its i node
+
+file path
+/xx/yy/zz.c
+- You have to walk through directory hierarchy
+- each level is a single table
+- Stored as files in symbol table, a mini database
+- stored as file, we need i-node
+
+/ -> root directory is a symbol table, described by i-node
+Super block: whenever you touch a file systme, you bring in info from superblock, a good place to put location of i-node that is entry point for directory
+
+i-node 10, let's say, describes root directory
+
+File name is translated to i-node
+- quesitons: 
+    - Find out i-node for this file name Count number of stacks to get i-node num
+    - Found out num of distacks you would do to get first block of data
+
+
+look at first tutorial for i-nodebl
